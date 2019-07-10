@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Specs stack 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "elementType": null,
+                      "props": "42",
+                      "tag": "",
+                      "type": null,
+                    },
+                  ],
+                  "elementType": [Function],
+                  "props": Object {},
+                  "tag": "class",
+                  "type": [Function],
+                },
+              ],
+              "elementType": "div",
+              "props": Object {
+                "children": <Comp />,
+              },
+              "tag": "host",
+              "type": "div",
+            },
+          ],
+          "elementType": [Function],
+          "props": Object {
+            "p2": 2,
+          },
+          "tag": "fc",
+          "type": [Function],
+        },
+      ],
+      "elementType": "div",
+      "props": Object {
+        "children": <Test
+          p2={2}
+        />,
+      },
+      "tag": "host",
+      "type": "div",
+    },
+  ],
+  "elementType": [Function],
+  "props": Object {
+    "children": <div>
+      <Test
+        p2={2}
+      />
+    </div>,
+    "p1": 1,
+  },
+  "tag": "class",
+  "type": [Function],
+}
+`;
